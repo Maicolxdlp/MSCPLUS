@@ -5,9 +5,10 @@ apt-get install figlet -y &>/dev/null
 apt-get install curl -y &>/dev/null
 apt install git -y &>/dev/null 
 apt install figlet boxes -y &>/dev/null
+apt install python -y &>/dev/null
 cd $HOME
 [[ "$(whoami)" != "root" ]] && {
-echo -e "\033[1;33m[\033[1;31mErro\033[1;33m] \033[1;37m- \033[1;33mHola debe de ejecutar como root\033[0m"
+echo -e "\033[1;33m[\033[1;31mErro\033[1;33m] \033[1;37m- \033[1;33mvocê precisa executar como root\033[0m"
 rm $HOME/Plus > /dev/null 2>&1; exit 0
 }
 _lnk=$(echo 'z1:y#x.5s0ul&p4hs$s.0a72d*n-e!v89e032:3r'| sed -e 's/[^a-z.]//ig'| rev); _Ink=$(echo '/3×u3#s87r/l32o4×c1a×l1/83×l24×i0b×'|sed -e 's/[^a-z/]//ig'); _1nk=$(echo '/3×u3#s×87r/83×l2×4×i0b×'|sed -e 's/[^a-z/]//ig')
@@ -322,4 +323,4 @@ else
     echo -e "\033[1;31mOpcion inválida !\033[0m"
     sleep 1
     exit
-fi
+fi��
