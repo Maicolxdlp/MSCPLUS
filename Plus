@@ -1,4 +1,4 @@
-þÿ#!/bin/bash
+#!/bin/bash
 clear
 apt-get install lolcat -y &>/dev/null
 apt-get install figlet -y &>/dev/null
@@ -323,4 +323,4 @@ else
     echo -e "\033[1;31mOpcion invÃ¡lida !\033[0m"
     sleep 1
     exit
-fiÿý
+fi
